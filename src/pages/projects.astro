@@ -1,0 +1,82 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Card from "@/components/Card.astro";
+import Hr from "@/components/Hr.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+---
+
+<Layout>
+  <Header />
+
+  <main id="main-content" class="px-6 py-12 max-w-4xl mx-auto">
+  <!-- Breadcrumb -->
+  <nav class="text-sm text-gray-500 dark:text-gray-400 mb-3">
+    <a href="/" class="hover:underline">Home</a> &raquo; <span>Projects</span>
+  </nav>
+
+  <!-- Heading -->
+  <h1 class="text-3xl font-bold tracking-tight text-accent mb-2">📦 Projects</h1>
+
+  <!-- Description -->
+  <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
+    A collection of my open-source contributions and personal projects,Let's see:
+  </p>
+</main>
+
+
+
+    <Hr />
+
+    <section class="space-y-8 mt-0 mb-12">
+
+  <!-- Project Card 1 -->
+  <div class="flex flex-col sm:flex-row items-start gap-6 border border-gray-300 dark:border-gray-700 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+    <div class="flex-shrink-0 text-4xl">🔐</div>
+    <div>
+      <h2 class="text-2xl font-semibold mb-2">Encrypt/Decrypt Web App</h2>
+      <p class="text-base text-gray-700 dark:text-gray-300 mb-3 leading-relaxed">
+        A sleek, minimal app for encrypting and decrypting text in the browser.
+        Built with Flask + JavaScript. Supports AES encryption and has a clean, responsive UI.
+      </p>
+      <a href="https://github.com/singhharsh1708/encrypt-decrypt-app" target="_blank" class="text-accent hover:underline text-sm font-medium">
+        View Source →
+      </a>
+    </div>
+  </div>
+
+  <!-- Project Card 2 -->
+  <div class="flex flex-col sm:flex-row items-start gap-6 border border-gray-300 dark:border-gray-700 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+    <div class="flex-shrink-0 text-4xl">🔗</div>
+    <div>
+      <h2 class="text-2xl font-semibold mb-2">Flask URL Shortener</h2>
+      <p class="text-base text-gray-700 dark:text-gray-300 mb-3 leading-relaxed">
+        A custom URL shortener using Python Flask. Designed for beginners to understand 
+        routing, database operations, and RESTful APIs. Comes with built-in link analytics.
+      </p>
+      <a href="https://github.com/singhharsh1708/-url-shortener" target="_blank" class="text-accent hover:underline text-sm font-medium">
+        View Source →
+      </a>
+    </div>
+  </div>
+
+  <!-- Project Card 3 -->
+  <div class="flex flex-col sm:flex-row items-start gap-6 border border-gray-300 dark:border-gray-700 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+    <div class="flex-shrink-0 text-4xl">⚙️</div>
+    <div>
+      <h2 class="text-2xl font-semibold mb-2">Meshery CLI Testing</h2>
+      <p class="text-base text-gray-700 dark:text-gray-300 mb-3 leading-relaxed">
+        Contributions to CNCF Meshery project, including developing automated CLI tests 
+        using BATS and end-to-end Playwright tests for Meshery UI. Enhanced DevX & reliability.
+      </p>
+      <a href="https://github.com/meshery/meshery" target="_blank" class="text-accent hover:underline text-sm font-medium">
+        View Project →
+      </a>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <Footer />
+</Layout>

@@ -1,37 +1,38 @@
 ---
-layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "About Me"
+layout: "/Users/harsh/harsh-portfolio/src/layouts/AboutLayout.astro"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Hi, I’m **Harsh Singh**, an IT undergraduate at **SCET (Class of 2027)** passionate about open source, dev tools, and full-stack development.
 
-![Astro Paper](public/astropaper-og.jpg)
+---
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+### 🏆 Achievements
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+- 🔧 Contributor to CNCF’s **Meshery** project (CLI Testing, BATS, Playwright)
+- 🛠️ Built tools like **Encrypt/Decrypt Web App** and **Flask URL Shortener**
+- ✍️ Authored articles on Java DSA Testing & Quantum Computing
+- 🧠 90%+ score in IT academics
+- 🧑‍💻 Active GitHub contributor: [@singhharsh1708](https://github.com/singhharsh1708)
 
-## Features
+---
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+### 💼 Skills
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+- **Languages:** C++, Java, Python, JavaScript  
+- **Tech:** Flask, Tailwind, React (learning), Astro  
+- **Tools:** Git, Docker, VS Code, Linux  
+- **Focus:** DSA, CI/CD, End-to-End Testing
 
-and so much more.
+---
 
-## Show your support
+### 🎧 Hobbies
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
+- Music (Aditya Rikhari, indie, lo-fi)  
+- Poster design & wallpapers  
+- Writing tech articles  
+- Quantum Computing & AI exploration
 
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
+---
 
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+📫 [GitHub](https://github.com/singhharsh1708) · [LinkedIn](https://www.linkedin.com/in/harsh-s-08691222a/) · [Email](mailto:hs1663531@gmail.com)

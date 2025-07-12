@@ -1,24 +1,62 @@
 ---
-import { getCollection } from "astro:content";
-import Main from "@/layouts/Main.astro";
 import Layout from "@/layouts/Layout.astro";
-import Tag from "@/components/Tag.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
-import getUniqueTags from "@/utils/getUniqueTags";
-import { SITE } from "@/config";
+import Hr from "@/components/Hr.astro";
+import { getCollection } from "astro:content";
 
-const posts = await getCollection("blog");
+const posts = await getCollection("blog", ({ data }) => !data.draft);
 
-let tags = getUniqueTags(posts);
+const tagSet = new Set();
+posts.forEach(({ data }) => {
+  if (data.tags) {
+    data.tags.forEach(tag => tagSet.add(tag.toLowerCase()));
+  }
+});
+
+const uniqueTags = Array.from(tagSet).sort();
 ---
 
-<Layout title={`Tags | ${SITE.title}`}>
+<Layout>
   <Header />
-  <Main pageTitle="Tags" pageDesc="All the tags used in posts.">
-    <ul>
-      {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} size="lg" />)}
-    </ul>
-  </Main>
+
+  <main id="main-content" class="px-6 py-12 max-w-4xl mx-auto">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-500 dark:text-gray-400 mb-3">
+      <a href="/" class="hover:underline">Home</a> &raquo; <span>Tags</span>
+    </nav>
+
+    <!-- Heading -->
+    <h1 class="text-3xl font-bold tracking-tight text-accent mb-2">🏷️ Tags</h1>
+
+    <!-- Description -->
+    <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
+      These are the tags used across my blog posts to group and organize content.
+    </p>
+  </main>
+
+  <Hr />
+
+
+    <!-- Tag Section Matching Other Pages -->
+    <section class="mt-8 mb-12">
+      <div class="flex flex-col sm:flex-row items-start gap-6 border border-gray-300 dark:border-gray-700 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+        <div class="flex-shrink-0 text-2xl sm:text-3xl"></div>
+        <div class="w-full">
+          <h2 class="text-xl font-semibold mb-2"></h2>
+          <div class="flex flex-wrap gap-2 text-sm text-gray-700 dark:text-gray-300">
+            {
+              uniqueTags.map(tag => (
+                <span class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded hover:bg-accent hover:text-white transition">
+                  #{tag}
+                </span>
+              ))
+            }
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
   <Footer />
 </Layout>

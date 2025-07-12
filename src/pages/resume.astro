@@ -1,0 +1,87 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Hr from "@/components/Hr.astro";
+---
+
+<Layout>
+  <Header />
+
+  <main id="main-content" class="px-6 py-12 max-w-4xl mx-auto">
+   <!-- Breadcrumb -->
+<nav class="text-sm text-gray-500 dark:text-gray-400 mb-3">
+  <a href="/" class="hover:underline">Home</a> &raquo; <span>Resume</span>
+</nav>
+
+<!-- Heading -->
+<h1 class="text-3xl font-bold tracking-tight text-accent mb-2 text-left">📄 Resume</h1>
+
+    <!-- Description -->
+    <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
+        A snapshot of my skills, and experience as a developer and contributor.......
+    </p>
+  </main>
+
+  <Hr />
+
+  <!-- Resume Sections -->
+  <section class="space-y-8 mt-0 mb-12">
+    <!-- Education -->
+    <div class="flex flex-col sm:flex-row items-start gap-6 border border-gray-300 dark:border-gray-700 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+      <div class="flex-shrink-0 text-2xl sm:text-3xl">🎓</div>
+      <div>
+        <h2 class="text-xl font-semibold mb-2">Education</h2>
+        <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+          <li>
+            <strong>B.Tech in Information Technology</strong> – Sarvajanik College of Engineering and Technology (SCET), 2023–2027
+          </li>
+          <li>
+            <strong>Data Science (AI/ML Specialization)</strong> – IIT Madras (Online), Ongoing
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="flex flex-col sm:flex-row items-start gap-6 border border-gray-300 dark:border-gray-700 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+      <div class="flex-shrink-0 text-2xl sm:text-3xl">🛠️</div>
+      <div>
+        <h2 class="text-xl font-semibold mb-2">Skills</h2>
+        <ul class="flex flex-wrap gap-2 text-sm text-gray-700 dark:text-gray-300">
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">HTML</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">CSS</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">JavaScript</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">TypeScript</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">Python</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">C++</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">Flask</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">Astro</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">Git</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">GitHub</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">Linux</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">Bash</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">SQL</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">Playwright</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">BATS</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">VS Code</li>
+          <li class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded">Markdown</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Download Button -->
+    <div class="text-center">
+      <a
+        href="/Harsh's Resume32 copy.pdf"
+        class="inline-block bg-accent text-white px-6 py-2 rounded-lg font-medium hover:bg-opacity-80 transition"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        📥 Download PDF
+      </a>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>

@@ -1,0 +1,20 @@
+---
+export interface Props {
+  slug: string;
+  title: string;
+  description: string;
+  pubDate: string;
+  tags: string[];
+}
+
+const { slug, title, description, pubDate, tags } = Astro.props;
+---
+
+<article>
+  <h2><a href={`/blog/${slug}`}>{title}</a></h2>
+  <p>{description}</p>
+  <time datetime={pubDate}>{new Date(pubDate).toLocaleDateString()}</time>
+  <ul>
+    {tags.map(tag => <li>{tag}</li>)}
+  </ul>
+</article>
