@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-layout: ../../layouts/Layout.astro
+layout: "/Users/harsh/harsh-portfolio/src/layouts/AboutLayout.astro"
 ---
 
 Hi, I’m **Harsh Singh**, an IT undergraduate at **SCET (Class of 2027)** passionate about open source, dev tools, and full-stack development.
