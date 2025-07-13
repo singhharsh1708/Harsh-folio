@@ -8,7 +8,6 @@ import Card from "@/components/Card.astro";
 import Hr from "@/components/Hr.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
 import { getCollection } from "astro:content";
-import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 
 const posts = await getCollection("blog");
