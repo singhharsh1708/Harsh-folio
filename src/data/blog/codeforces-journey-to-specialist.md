@@ -15,15 +15,15 @@ This achievement is not just about the color change but a reflection of consiste
 
 ## 📊 Progress Overview
 
-Here's a breakdown of my recent contests that led to this milestone:
+Here’s a breakdown of the contests that marked my journey:
 
 | Contest | Date | Rank | Problems Solved | Rating Change | New Rating |
 |--------|------|------|-----------------|----------------|-------------|
-| [Codeforces Round 1040 (Div. 2)](https://codeforces.com/contest/1823) | Jul 31, 2025 | **941** | 4 | 🔼 +228 | 🟦 **1446** |
-| [Educational Codeforces Round 168 (Rated for Div. 2)](https://codeforces.com/contest/1819) | Jul 24, 2025 | 1770 | 3 | 🔼 +113 | 1218 |
-| [Codeforces Round 1036 (Div. 2)](https://codeforces.com/contest/1817) | Jul 17, 2025 | 2982 | 2 | 🔼 +48 | 1105 |
-| [Codeforces Round 1034 (Div. 2)](https://codeforces.com/contest/1812) | Jul 9, 2025 | 4731 | 1 | 🔼 +31 | 1057 |
-| [Codeforces Round 1033 (Div. 2)](https://codeforces.com/contest/1809) | Jul 4, 2025 | 6216 | 0 | 🔽 -43 | 1026 |
+| [Codeforces Round 1040 (Div. 2)](https://codeforces.com/contest/1823) | Jul 31, 2025 | **941** | 4 | 🔼 +228 | 🟦 **1446** *(Specialist)* |
+| [Educational Codeforces Round 181 (Rated for Div. 2)](https://codeforces.com/contest/1821) | Jul 22, 2025 | 3774 | 3 | 🔼 +198 | 1218 *(Pupil)* |
+| [Order Capital Round 1 (CF Round 1038)](https://codeforces.com/contest/1820) | Jul 19, 2025 | 3114 | 3 | 🔼 +371 | 1020 |
+| [Codeforces Round 1037 (Div. 3)](https://codeforces.com/contest/1818) | Jul 17, 2025 | 13633 | 3 | 🔼 +281 | 649 |
+| [Codeforces Round 1035 (Div. 2)](https://codeforces.com/contest/1811) | Jul 5, 2025 | 14066 | 0 | 🔼 +368 | 368 |
 
 ---
 
