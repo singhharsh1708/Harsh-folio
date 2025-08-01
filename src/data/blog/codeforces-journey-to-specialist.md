@@ -1,7 +1,7 @@
 ---
 title: "My Codeforces Journey to Specialist 💙"
 description: "From Novice to Specialist – a milestone in my competitive programming journey."
-pubDate: 2025-08-01
+pubDatetime: 2025-08-01T06:15:00Z
 author: "Harsh Singh"
 tags: ["Codeforces", "Competitive Programming", "Milestone", "Specialist"]
 draft: false
